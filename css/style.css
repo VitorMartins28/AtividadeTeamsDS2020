@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Oxanium&display=swap');
+.bg-title {
+    background: url('../img/ti.jpg');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.h1t {
+    font-family: 'Oxanium', cursive;
+    color: rgb(9, 179, 108);
+}
+
+.h2t {
+    font-family: 'Oxanium', cursive;
+    color: rgb(65, 90, 110);
+}
+
+#myFooter .footer-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    margin-top: 2em;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
+#myFooter {
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}
+
+.display-7 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    padding: 10px;
+}
+
+@media (max-width: 576px) {
+    .display-4 {
+        font-size: 2.0rem;
+        color: brown
+    }
+    .display-7 {
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 1.2;
+        padding: 10px;
+        font-style: italic;
+        margin-top: 2em;
+    }
+    .lead {
+        font-size: 1.0rem;
+        font-weight: 100;
+    }
+    .bg-title {
+        background: url('../img/home-logo.jpg');
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+    }
+}
